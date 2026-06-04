@@ -9,7 +9,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="theme-color" content="#c97d6e">
 <link rel="manifest" href="manifest.json">
-<title>🩸 血糖监测工具</title>
+<title>🩸 悦控糖悦美腻</title>
 <style>
   :root { --bg:#f7f5f2; --card:#fff; --text:#3d3d3d; --muted:#9b8e8a; --primary:#c97d6e; --primary-dark:#a8685b; --danger:#d49589; --warn:#c9a04e; --safe:#5a9e6f; --info:#6b8e9e; --border:#e8e3df; --radius:12px; --shadow:0 2px 12px rgba(0,0,0,0.05); }
   * { margin:0; padding:0; box-sizing:border-box; }
@@ -17,6 +17,7 @@
   .container { max-width:620px; margin:0 auto; padding:16px; }
   .header { background:linear-gradient(135deg,#c97d6e,#b07668); color:#fff; padding:22px; text-align:center; border-radius:var(--radius); margin-bottom:16px; }
   .header h1 { font-size:1.3em; font-weight:700; } .header .subtitle { opacity:0.88; font-size:0.8em; margin-top:4px; }
+  .header h1 .app-icon { display:inline-block; font-size:1.3em; margin-right:6px; vertical-align:middle; }
   .tabs { display:flex; gap:4px; margin-bottom:16px; background:var(--card); border-radius:var(--radius); padding:4px; box-shadow:var(--shadow); }
   .tab { flex:1; text-align:center; padding:10px 4px; border-radius:10px; font-size:0.82em; font-weight:600; cursor:pointer; border:none; background:transparent; color:var(--muted); transition:all 0.2s; }
   .tab.active { background:var(--primary); color:#fff; }
@@ -80,7 +81,7 @@
 </head>
 <body>
 <div class="container">
-<div class="header"><h1>🩸 血糖监测工具</h1><div class="subtitle">三餐记录 · AI营养评估 · 发现你的炸糖食物</div></div>
+<div class="header"><h1><span class="app-icon">💖</span>悦控糖悦美腻</h1><div class="subtitle">三餐记录 · 营养评估 · 做自己的控糖主理人</div></div>
 <div class="tabs">
   <button class="tab active" onclick="switchTab('log')">📝 每日记录</button>
   <button class="tab" onclick="switchTab('analysis')">📊 我的数据</button>

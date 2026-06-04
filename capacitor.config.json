@@ -1,8 +1,6 @@
 {
   "appId": "com.yue.glucosetracker",
-  "appName": "血糖监测",
+  "appName": "悦健康",
   "webDir": "www",
-  "server": {
-    "androidScheme": "https"
-  }
+  "server": { "androidScheme": "https" }
 }
