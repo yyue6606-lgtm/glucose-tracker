@@ -1,0 +1,16 @@
+{
+  "name": "glucose-tracker",
+  "version": "1.0.0",
+  "description": "血糖监测工具 - 三餐记录 · 营养评估 · AI食物查询",
+  "main": "血糖监测工具.html",
+  "scripts": {
+    "build": "npx cap sync",
+    "open:android": "npx cap open android",
+    "build:apk": "npx cap sync && cd android && gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.1",
+    "@capacitor/cli": "^6.2.1",
+    "@capacitor/core": "^6.2.1"
+  }
+}
